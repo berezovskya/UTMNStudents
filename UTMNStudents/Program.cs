@@ -12,4 +12,8 @@ public class Program
         b = 2;
         int c = a + b;
     }
+    public void Calc2()
+    {
+        return;
+    }
 }
