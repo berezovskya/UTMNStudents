@@ -14,9 +14,6 @@ public class Program
         Console.WriteLine("INFO: Program started");
         Console.WriteLine("123");
         Console.WriteLine("HelloWorld");
-        int a = rec(5, 1);
-        Console.WriteLine("x = " + a);
-        Console.WriteLine("x = " + rec(5, 1));
         Console.WriteLine("rec(2) + rec(3) = " + newFeature(rec(2, 1), rec(3, 1)));
         Console.WriteLine("INFO: Program finish");
     }
