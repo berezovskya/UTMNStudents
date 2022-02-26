@@ -11,7 +11,6 @@ public class Program
     static void Main(string[] args)
     {
         Console.WriteLine("INFO: Program started");
-        Console.WriteLine("123");
         Console.WriteLine("HelloWorld");
         Console.WriteLine("x = " + rec(5));
         Console.WriteLine("rec(2) + rec(3) = " + newFeature(rec(2), rec(3)));
